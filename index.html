@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulário de Pesquisa</title>
+  </head>
+
+  <header>
+    <h1>Formulário de Pesquisa</h1>
+    <p>Obrigada por nos ajudar a melhorar nossos serviços.</p>
+  </header>
+
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="idade">Idade</label>
+          <input
+            type="number"
+            id="idade"
+            name="idade"
+            min="10"
+            max="99"
+            placeholder="Idade"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="situacao">Qual opção descreve sua situação atual?</label>
+          <select id="dropdown" name="situacao" required>
+            <option value="disable selected value">Escolha sua opção</option>
+            <option value="student">Estudante</option>
+            <option value="job">Empregado</option>
+            <option value="learner">Empregado meio periodo</option>
+            <option value="preferNo">Prefiro não responder</option>
+            <option value="other">Outro</option>
+          </select>
+        </div>
+
+        <div class="form-radio-checkbox">
+          <label>Recomenda nossos serviços?</label>
+          <label>
+            <input
+              type="radio"
+              name="recommend"
+              value="sim"
+              class="input-radio"
+            />Sim
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="recommend"
+              value="nao"
+              class="input-radio"
+            />Não
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="recommend"
+              value="talvez"
+              class="input-radio"
+            />Talvez
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="servico">Qual seu serviço favorito?</label>
+          <select id="dropdown" name="servico" required>
+            <option value="disable selected value">Escolha sua opção</option>
+            <option value="webdesign">Web Design</option>
+            <option value="uxui">UX/UI</option>
+            <option value="frontend">Front-end</option>
+            <option value="backend">Back-end</option>
+            <option value="preferNo">Prefiro não responder</option>
+            <option value="other">Outro</option>
+          </select>
+        </div>
+
+        <div class="form-radio-checkbox">
+          <label>Em que itens você gostaria de ver melhorias?</label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="projetos-de-front-end"
+              class="input-checkbox"
+            />Projetos de Front-end
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="projetos-de-back-end"
+              class="input-checkbox"
+            />Projetos de Back-end
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="visualização-de-dados"
+              class="input-checkbox"
+            />Visualização de Dados
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="postagens-instagram"
+              class="input-checkbox"
+            />Postagens no Instagram
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="videos"
+              class="input-checkbox"
+            />Videos
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="desafios"
+              class="input-checkbox"
+            />Desafios
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="forum"
+              class="input-checkbox"
+            />Fórum
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="melhorias"
+              value="cursos"
+              class="input-checkbox"
+            />Cursos
+          </label>
+        </div>
+
+        <div class="form-textarea">
+          <label> Algum comentário ou sugestão?</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="60"
+            rows="6"
+            placeholder="Digite aqui sua mensagem"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button>Enviar</button>
+        </div>
+      </form>
+      <footer>
+        <p>vania<strong>mesquita</strong> - 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>
