@@ -61,4 +61,4 @@ Você pode acessar o projeto clicando <a href="https://vaniamesquita.me/formular
 [![Gmail Badge](https://img.shields.io/badge/-vaniasalesm@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vaniasalesm@gmail.com)](mailto:vaniasalesm@gmail.com)<br>
 
 
-<p align="center"> <img alt="MIT License" src="https://img.shields.io/github/license/vaniamesquita/formulario"> </p>
+<p align="center"> <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green"> </p>
