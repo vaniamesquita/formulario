@@ -11,13 +11,13 @@ Esse é um formulário simples, que foi desenvolvido com a finalidade de treinar
 
 Nesse formulário foi possível praticar o uso de algumas tags usadas no form, como **input checkbox**, **input radio**, **option(dropdown)** e também a estilização desse formulário com CSS.
 
-#### Acesse o site completo: <a href="https://vaniamesquita.me/formulario/" target="_blank">vaniamesquita.me/formulario</a> 
+#### Acesse o site completo: <a href="https://forms0.netlify.app" target="_blank">https://forms0.netlify.app</a> 
 
 ---
 
 ## Layout
 
-Você pode acessar o projeto clicando <a href="https://vaniamesquita.me/formulario/" target="_blank">aqui</a>
+Você pode acessar o projeto clicando <a href="https://forms0.netlify.app" target="_blank">aqui</a>
 
 
 #### <p align="center">Web</p>
